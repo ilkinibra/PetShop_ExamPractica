@@ -1,0 +1,67 @@
+#pricing {
+    margin-top: 5%;
+    background-color: #f2f2f4 !important;
+
+    .price-title {
+        text-align: center;
+        margin-left: 30%;
+
+        h4 {
+            margin-top: 3%;
+            color: #65c178 !important;
+        }
+
+        h1 {
+            color: black;
+
+            span {
+                color: #ed6436 !important;
+            }
+
+            font-weight: 700;
+            font-size: 3rem;
+        }
+    }
+
+    .card {
+        margin-top: 5%;
+        margin-left: 7%;
+        margin-bottom: 5%;
+        width: 350px;
+        text-align: center;
+
+        h5 {
+            color: #ed6436 !important;
+        }
+
+        p {
+            color: white;
+            font-weight: 700;
+            font-size: 2rem;
+        }
+
+        ul {
+            background-color: white;
+
+            li {
+                color: gray;
+                text-align: center;
+                list-style: none;
+
+                i {
+                    margin-right: 3%;
+
+                }
+
+                .fa-check {
+                    color: #65c178;
+                }
+
+                .fa-xmark {
+                    color: red;
+                }
+            }
+        }
+    }
+
+}

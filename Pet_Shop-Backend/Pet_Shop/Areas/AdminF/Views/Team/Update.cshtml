@@ -1,0 +1,56 @@
+﻿@model Team
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/AdminF/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="container">
+    <div class="row">
+        <div class="col=md-12">
+             <form class="forms-sample" method="post" enctype="multipart/form-data">
+                    <div class="form-group" >
+                      <label asp-for="Photo">Photo</label>
+                      <input asp-for="Photo"  class="form-control"   accept="image/*">
+                      <span asp-validation-for="Photo"></span>
+                    </div>
+                    <div class="form-group" >
+                      <label asp-for="Name">Name</label>
+                      <input asp-for="Name"  class="form-control"  placeholder="Name">
+                      <span asp-validation-for="Name"></span>
+                    </div>
+                    <div class="form-group">
+                      <label asp-for="Position">Position</label>
+                      <input asp-for="Position"  class="form-control"  placeholder="Position">
+                      <span asp-validation-for="Position"></span>
+
+                    </div> 
+                       <div class="form-group">
+                      <label asp-for="Insta">Insta</label>
+                      <input asp-for="Insta"  class="form-control"  placeholder="Insta">
+                      <span asp-validation-for="Insta"></span>
+
+                    </div>
+                    <div class="form-group">
+                      <label asp-for="Linkedin">Linkedin</label>
+                      <input asp-for="Linkedin"  class="form-control"  placeholder="Linkedin">
+                      <span asp-validation-for="Linkedin"></span>
+
+                    </div> 
+                     <div class="form-group">
+                      <label asp-for="Twitter">Twitter</label>
+                      <input asp-for="Twitter"  class="form-control"  placeholder="Twitter">
+                      <span asp-validation-for="Twitter"></span>
+
+                    </div> 
+                     <div class="form-group">
+                      <label asp-for="Face">Face</label>
+                      <input asp-for="Face"  class="form-control"  placeholder="Face">
+                      <span asp-validation-for="Face"></span>
+
+                    </div> 
+                    <button type="submit" class="btn btn-primary mr-2">Create</button>
+                    <a asp-controller="slider" asp-action="Index" class="btn btn-primary">Back</a>
+                  </form>
+        </div>
+       
+    </div>
+</div>

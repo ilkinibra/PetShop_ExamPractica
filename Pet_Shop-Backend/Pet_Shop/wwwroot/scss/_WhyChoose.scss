@@ -1,0 +1,39 @@
+#whychoose{
+    margin-top: 5%;
+    .why-items{
+        .why-img-item{
+            img{
+                width: 100%;
+            }
+        }
+        .why-title{
+            h4{
+                color: #65c178!important;
+            }
+            h1{
+                color: black;
+                span{
+                    color: #ed6436!important;
+                }
+                font-weight: 700;
+                font-size: 3rem;
+            }
+            p{
+                color: gray;
+            }
+            .why-icons{
+                i{
+                    color: #65c178!important;
+                    font-size: 50px;
+                    text-align: center;
+
+                }
+                h5{
+                    margin-left: 5%;
+                    text-align: center;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,58 @@
+﻿@model Bio
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/AdminF/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="container">
+    <div class="row">
+        <div class="col=md-12">
+            <form class="forms-sample" method="post" enctype="multipart/form-data">
+
+                <div class="form-group">
+                    <label asp-for="Location">Location</label>
+                    <input asp-for="Location" class="form-control" placeholder="Location">
+                    <span asp-validation-for="Location"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Mail">Mail</label>
+                    <input asp-for="Mail" class="form-control" placeholder="Mail">
+                    <span asp-validation-for="Mail"></span>
+
+                </div>
+                <div class="form-group">
+                    <label asp-for="Insta">Insta</label>
+                    <input asp-for="Insta" class="form-control" placeholder="Insta">
+                    <span asp-validation-for="Insta"></span>
+
+                </div>
+                <div class="form-group">
+                    <label asp-for="Linkedin">Linkedin</label>
+                    <input asp-for="Linkedin" class="form-control" placeholder="Linkedin">
+                    <span asp-validation-for="Linkedin"></span>
+
+                </div>
+                <div class="form-group">
+                    <label asp-for="Twitter">Twitter</label>
+                    <input asp-for="Twitter" class="form-control" placeholder="Twitter">
+                    <span asp-validation-for="Twitter"></span>
+
+                </div>
+                <div class="form-group">
+                    <label asp-for="Facebook">Facebook</label>
+                    <input asp-for="Facebook" class="form-control" placeholder="Facebook">
+                    <span asp-validation-for="Facebook"></span>
+
+                </div>
+                <div class="form-group">
+                    <label asp-for="Phone">Phone</label>
+                    <input asp-for="Phone" class="form-control" placeholder="Phone">
+                    <span asp-validation-for="Phone"></span>
+
+                </div>
+                <button type="submit" class="btn btn-primary mr-2">Create</button>
+                <a asp-controller="bio" asp-action="Index" class="btn btn-primary">Back</a>
+            </form>
+        </div>
+
+    </div>
+</div>

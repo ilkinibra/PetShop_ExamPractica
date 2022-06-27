@@ -1,0 +1,53 @@
+#about{
+    margin-top: 5%;
+
+    .about-items{
+        .about-text{
+            h3{
+                font-weight: 700;
+                color: #65c178 !important;
+                font-family: Nunito, sans-serif !important;
+            }
+           h1{
+               font-weight: 700;
+            .t-1{
+                color: #ed6436;
+            }
+            .t-2{
+                color: black;
+            }
+            .t-3{
+                color: #65c178!important;
+            }
+           }
+           h2{
+            color: #6c757d!important;
+           }
+           p{
+               color: gray;
+           }
+        }
+        .about-icons{
+            i{
+                color: #65c178!important;
+            }
+            button{
+                width: 150px;
+                height: 50px;
+                border-radius: 8px;
+                background-color:#ed6436 ;
+                color: white;
+            }
+        }
+        .about-img{
+            img{
+                width: 495px;
+            }
+            .about-imgs{
+                img{
+                    width: 247.5px;
+                }
+            }
+        }
+    }
+}
